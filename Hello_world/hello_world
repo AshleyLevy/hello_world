@@ -1,0 +1,12 @@
+class Hello_world
+	def initialize(price_drop)
+		@price_drop = price_drop
+	end
+
+	def new_price
+		puts @price_drop			
+	end
+end
+
+my_hello_world = Hello_world.new("Price drops $8, new price of $4.")
+my_hello_world.new_price
